@@ -8,7 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 import time
 import datetime
 
-driver = webdriver.Firefox(executable_path=r"C:\Users\umutc\Downloads\geckodriver-v0.23.0-win64\geckodriver.exe")
+driver = webdriver.Firefox(executable_path=r"geckodriver.exe")
 
 ############################################################## LOGIN ##############################################################################
 driver.get("https://cointiply.com/login")
